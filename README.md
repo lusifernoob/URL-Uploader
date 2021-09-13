@@ -2,10 +2,7 @@
 
 A simple url uploader bot with permenent thumbnail support
 
-```
-Scrapped some code from @SpEcHIDe's AnyDLBot Repository
-Made with Python3
-```
+---
 
 ## Deploy 
 
@@ -25,24 +22,21 @@ pip3 install -r requirements.txt
 python3 bot.py
 ```
 
+---
+
 ## Variables
 
 * `API_HASH` Your API Hash from my.telegram.org
 * `API_ID` Your API ID from my.telegram.org
 * `BOT_TOKEN` Your bot token from @BotFather
-* `AUTH_USERS` Allow only pre-defined users to use this bot
-* `TIME_LIMIT` For time to next process in second 
-* `UPDATE_CHANNEL` Updates channel username without '@' for force subscription
+* `AUTH_USERS` Allow only pre-defined users to use this bot 
+* `PRIVATE` Boolean For private use
+* `TIME_LIMIT` For time to next process in second
+* `LOG_CHANNEL` For sending recieved files to log channel
 
-## Accounts
-
-* [Twitter](https://twitter.com/FayasNoushad)
-* [YouTube](https://youtube.com/channel/UCo3BrCslEn8ru34gTXyfVnQ)
-* [GitHub](https://github.com/FayasNoushad)
-* [Telegram](https://telegram.me/FayasNoushad)
+---
 
 ## Credits
 
-* [Fayas Noushad](https://github.com/FayasNoushad)
-* [Shrimadhav UK](https://github.com/SpEcHIDe)
-* [Pyrogram](https://github.com/pyrogram/pyrogram)
+- Full credits goes to [Shrimadhav UK](https://github.com/SpEcHiDe) for his [AnyDLBot](https://github.com/SpEcHiDe/AnyDLBot)
+- Updated / Modified by [Fayas Noushad](https://github.com/FayasNoushad)

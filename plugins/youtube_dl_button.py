@@ -229,7 +229,7 @@ async def youtube_dl_call_back(bot, update):
                     img.resize((90, height))
                 img.save(thumb_image_path, "JPEG")
             else:
-                thumb_image_path = None
+                thumb_image_path = Config.DEF_THUMB_NAIL_VID_S
 
             start_time = time.time()
             if tg_send_type == "audio":
@@ -343,6 +343,10 @@ async def youtube_dl_call_back(bot, update):
                     )
             try:
                 shutil.rmtree(tmp_directory_for_each_user)   
+            except:
+                pass 
+            try:
+                os.remove(download_directory)
             except:
                 pass
             try:
